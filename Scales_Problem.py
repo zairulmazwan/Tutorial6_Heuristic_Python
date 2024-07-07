@@ -20,13 +20,7 @@ class Scales:
     def calculate_fitness(self):
         left = 0
         right = 0
-        for i in range(len(self.data)):
-            if self.solution[i] == 0:
-                left += (self.data[i])
-            else:
-                right += (self.data[i])
-
-        self.fitness = abs(left-right)
+        #     complete your code here
 
 
     def copy_solution(self, another_scales):
