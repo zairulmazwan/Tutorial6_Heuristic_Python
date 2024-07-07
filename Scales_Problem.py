@@ -3,7 +3,6 @@ import copy as cp
 
 
 class Scales:
-
     def __init__(self, data):
         self.data = data
         self.solution = [rd.randint(0,1) for i in range(len(data))]
@@ -15,7 +14,6 @@ class Scales:
         for i in self.solution:
             print (i, end=" ")
         print("\t", self.fitness)
-
 
 
     # Everytime a scales object is created, this function must be called to calculate the fitness value
@@ -36,25 +34,6 @@ class Scales:
         self.calculate_fitness()
 
 
-
-
-
-
-
-
-
-
-
-
-# data = f.read_dataset()
-# print(data)
-#
-# scale = Scales(data)
-# scale.print_solution()
-# scale.calculate_fitness()
-# print("Fitness is: ")
-# fitness = scale.fitness
-# print(fitness)
 
 
 # ©Zairul Mazwan©
