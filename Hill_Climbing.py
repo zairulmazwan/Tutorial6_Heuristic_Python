@@ -36,7 +36,7 @@ class Hill_Climbing:
             # complete your code here
 
 
-            # This if statement is used to check whether solution 2 is better than solution 1. If yes, solution 1 will get the copied of the solution from 2.
+            # This if statement is used to check whether solution 2 is better than solution 1. If yes, solution 1 will get a copy of the solution from 2.
             # if (complete your code here):
             #     complete your code here
 
